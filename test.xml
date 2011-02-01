@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+  <Ip>74.125.45.100</Ip>
+  <Status>OK</Status>
+  <CountryCode>US</CountryCode>
+  <CountryName>United States</CountryName>
+  <RegionCode>06</RegionCode>
+  <RegionName>California</RegionName>
+  <City>Mountain View</City>
+  <ZipPostalCode>94043</ZipPostalCode>
+  <Latitude>37.4192</Latitude>
+  <Longitude>-122.057</Longitude>
+  <Timezone>-8</Timezone>
+  <Gmtoffset>-8</Gmtoffset>
+  <Dstoffset>-7</Dstoffset>
+</Response>

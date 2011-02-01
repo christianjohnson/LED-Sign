@@ -1,0 +1,39 @@
+application: ledsignmessage
+version: 7
+runtime: python
+api_version: 1
+
+inbound_services:
+- mail
+
+handlers:
+- url: /favicon.ico
+  static_files: static/favicon.ico
+  upload: static/favicon.ico
+
+- url: /css/style.css
+  static_files: static/style.css
+  upload: static/style.css
+
+- url: /js/main.js
+  static_files: static/main.js
+  upload: static/main.js
+
+- url: /check
+  script: check.py
+  login: admin
+
+- url: /locations
+  script: locations.py
+
+- url: /delete
+  script: delete.py
+  login: admin
+
+- url: /_ah/mail/.+ 
+  script: handle_sms.py 
+  login: admin
+
+- url: /.*
+  script: main.py
+

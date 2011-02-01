@@ -1,0 +1,73 @@
+div.title {
+  margin-top: 1%;
+}
+
+h1.title {
+  font-size: 45px;
+  text-align: center; 
+  color:white;
+}
+
+h3.title {
+  font-size: 20px;
+  text-align: center; 
+  color:white;
+}
+
+div.messageBox {
+  margin-left: auto;
+  margin-right: auto;
+  width: 43%;
+}
+
+.submit {
+  margin-top: 2px;
+}
+
+div#map_canvas {
+  margin-top: 2%; 
+  margin-left: 2%; 
+  margin-right: 0px;
+  width:40%; 
+  height:60%; 
+  border-style:solid; 
+  border-width:4 px; 
+  border-color:#CCCCFF; 
+  float: left;
+}
+
+body {
+  background-color:black;
+  margin: 0px;
+}
+
+#lcontainer {
+  margin-top: 2%; 
+  margin-left: 2%;
+  margin-right: 15%;
+  width:40%; 
+  height:60%; 
+  padding-left:3px;
+  padding-right:3px;
+  float: right;
+}
+
+#mess {
+  margin: 0px;
+  color: white;
+  float: left;
+  font-family: MarlonBookDB;
+  font-size: 20px;
+  list-style:none;
+}
+
+#mess li {
+  min-height: 75px;
+}
+
+
+
+
+
+
+
